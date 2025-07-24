@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash($env:CI=\"true\")",
+      "Bash(npx create-next-app:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git init:*)"
+    ],
+    "deny": []
+  }
+}
